@@ -20,7 +20,6 @@ services:
       cd /root/cookbooks &&
       git config --global user.email 'you@example.com' &&
       git config --global user.name 'Your Name' &&
-      git clone https://github.com/chef-training/custom_web.git &&
       code-server --bind-addr 0.0.0.0:8000 --auth none
       "
 
