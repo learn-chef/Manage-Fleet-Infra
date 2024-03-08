@@ -3,6 +3,7 @@ version: "3.7"
 services:
   chef-workstation:
     image: ubuntu:20.04
+    platform: linux/amd64
     stdin_open: true
     ports:
       - "8000:8000"
