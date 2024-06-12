@@ -8,6 +8,7 @@ services:
       - "8000:8000"
       - "8080:8080"
       - "80:80"
+    platform: linux/amd64
     command: bash -xc "
       apt-get update && 
       apt-get install -y curl wget git &&
